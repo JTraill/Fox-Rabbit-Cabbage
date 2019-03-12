@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <script src="project.js"></script>
+        <title>Project</title>
+    </head>
+    <body onload=setup()>
+        <canvas id="myCanvas" width="1200" height="600" style="border:1px solid;"></canvas>
+        <img id="fox" src="fox1.png" alt="The Scream" width="0" height="0">
+        <img id="rabbit" src="rabbit.png" alt="The Scream" width="0" height="0">
+        <img id="cabbage" src="cabbage.png" alt="The Scream" width="0" height="0">
+        <img id="boat" src="boat1.png" alt="The Scream" width="0" height="0"><br/>
+        
+        <input type="button" onclick="travel()" value="Cross">
+        <input type="button" onclick="dropOff()" value="Empty boat">
+        <input type="button" onclick="addItem('fox')" value="Add fox">
+        <input type="button" onclick="addItem('rabbit')" value="Add rabbit">
+        <input type="button" onclick="addItem('cabbage')" value="Add cabbage"><br/><br/><br/><br/>
+        <input type="button" onclick="setup()" value="Reset"><br/>
+        
+    </body>
+</html>
